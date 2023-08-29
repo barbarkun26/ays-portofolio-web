@@ -1,0 +1,188 @@
+:root {
+  --fonts {
+    font-family: "ADLaM Display", cursive;
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+.home {
+  height: 3000px;
+  width: 100%;
+  background-color: #03001c;
+}
+
+/* navbar start */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-right: 8px;
+  padding-left: 10px;
+  background-color: black;
+  border-bottom: 1px dotted white;
+  font-family: var(--fonts);
+}
+
+.navbar-brand a {
+  font-weight: bold;
+  color: aliceblue;
+  margin-left: 100px;
+  font-size: 30px;
+  font-family: "Pacifico", cursive;
+  text-decoration: none;
+}
+
+.navbar-brand span {
+  font-family: "Pacifico", cursive;
+  font-size: 40px;
+  color: cyan;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+
+.nav-menu a {
+  font-size: 20px;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.nav-menu a:hover {
+  color: #00ffff;
+  transition: 0.5s;
+}
+
+/* navbar end */
+
+/* side-bar start */
+
+.side-bar {
+  z-index: 200;
+  display: flex;
+  position: fixed;
+  padding: auto;
+  margin-top: 150px;
+  margin-left: 90%;
+}
+
+.side-bar-menu ul {
+  border-radius: 30px;
+  background-color: cyan;
+  padding: 20px 5px;
+
+  list-style-type: none;
+}
+
+.side-bar-menu li {
+  padding: 10px 15px;
+}
+
+.side-bar-menu a {
+  font-size: 20px;
+  color: black;
+}
+
+.side-bar-menu a:hover {
+  color: aliceblue;
+  transition: 0.6s;
+}
+/* side-bar end */
+
+/* content home start */
+
+.image img {
+  width: 20%;
+  height: 20%;
+  margin-top: 50px;
+  margin-left: 200px;
+  border-radius: 50px;
+}
+
+.content {
+  align-items: center;
+  display: inline-block;
+  position: absolute;
+  bottom: 35%;
+  left: 45%;
+}
+
+.content h2 {
+  color: aliceblue;
+  font-family: var(--fonts);
+}
+
+.content h3 {
+  color: cyan;
+}
+
+.content h4 {
+  color: aliceblue;
+  padding-top: 20px;
+  padding-right: 200px;
+}
+/* content home end */
+
+/* content skill start */
+
+.tittle p {
+  justify-content: start;
+  font-weight: bold;
+  color: aliceblue;
+  padding-left: 45%;
+  font-size: 45px;
+  font-family: "ADLaM Display", cursive;
+  text-decoration: none;
+  padding-top: 30px;
+  justify-content: center;
+}
+
+.container {
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  background-color: #00002c;
+  border-radius: 30px;
+  display: flex;
+}
+
+.container img {
+  width: 100px;
+  margin-left: 30px;
+  border-radius: 20px;
+}
+
+.container h2 {
+  display: flex;
+  font-size: 30px;
+  color: aliceblue;
+  padding: 30px;
+}
+
+/* content skill end */
+
+/* portofolio start */
+.tittle-port p {
+  justify-content: start;
+  font-weight: bold;
+  color: aliceblue;
+  padding-left: 43%;
+  font-size: 45px;
+  font-family: "ADLaM Display", cursive;
+  text-decoration: none;
+  padding-top: 70px;
+  justify-content: center;
+}
+
+/* portofolio end */
